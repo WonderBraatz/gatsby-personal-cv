@@ -1,26 +1,36 @@
-require(`dotenv`).config()
+require(`dotenv`).config();
 
-const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
+const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE;
 
 module.exports = {
   siteMetadata: {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-emilia-core/gatsby-config.js
-    siteTitle: `Emilia`,
-    siteTitleAlt: `Emilia - Gatsby Starter Portfolio`,
-    siteHeadline: `Emilia - Gatsby Theme from @lekoarts`,
-    siteUrl: `https://emilia.lekoarts.de`,
-    siteDescription: `Minimalistic portfolio/photography site with masonry grid, page transitions and big images. Themeable with Theme UI. Includes Light/Dark mode.`,
+    siteTitle: `Florian Braatz`,
+    siteTitleAlt: `Florian Braatz - Portfolio Webpage`,
+    siteHeadline: `Florian Braatz`,
+    siteUrl: `https://whoisflorianbraatz.com`,
+    siteDescription: `I personally use this site to introduce myself to new business contacts`,
     siteLanguage: `en`,
     siteImage: `/banner.jpg`,
-    author: `@lekoarts_de`,
+    author: `F Braatz`,
   },
   plugins: [
     {
       resolve: `@lekoarts/gatsby-theme-emilia`,
       // See the theme's README for all available options
-      options: {},
+      options: {
+        name: "Florian Braatz",
+        socialMedia: [
+          {
+            title: `LinkedIn`,
+            href: `https://www.linkedin.com/in/florian-braatz/`,
+          },
+          { title: `Mail`, href: `mailto:contact@whoisflorianbraatz.com` },
+        ],
+        showThemeAuthor: false,
+      },
     },
     `gatsby-plugin-sitemap`,
     {
@@ -59,4 +69,4 @@ module.exports = {
       },
     },
   ].filter(Boolean),
-}
+};
