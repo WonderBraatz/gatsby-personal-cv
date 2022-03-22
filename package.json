@@ -8,16 +8,17 @@
   "starter-name": "gatsby-starter-portfolio-emilia",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop -H $HOSTNAME -p 8000",
+    "develop": "sudo gatsby develop -H $HOSTNAME -p 8000",
     "develop:cypress": "cross-env CYPRESS_SUPPORT=y yarn develop",
     "build:cypress": "cross-env CYPRESS_SUPPORT=y yarn build",
-    "start": "gatsby develop",
+    "start": "sudo gatsby develop",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "sudo gatsby clean"
   },
   "dependencies": {
     "@lekoarts/gatsby-theme-emilia": "^3.0.0",
-    "gatsby": "^4.4.0",
+    "gatsby": "^4.10.1",
+    "gatsby-cli": "^4.10.1",
     "gatsby-plugin-gatsby-cloud": "^4.0.0",
     "gatsby-plugin-manifest": "^4.0.0",
     "gatsby-plugin-sitemap": "^5.0.0",

@@ -23,11 +23,12 @@ module.exports = {
       options: {
         name: "Florian Braatz",
         socialMedia: [
+          { title: `Mail`, href: `mailto:contact@whoisflorianbraatz.com` },
+          { title: `Download CV (DE)`, href: `/CV_Florian_Braatz.pdf` },
           {
             title: `LinkedIn`,
             href: `https://www.linkedin.com/in/florian-braatz/`,
           },
-          { title: `Mail`, href: `mailto:contact@whoisflorianbraatz.com` },
         ],
         showThemeAuthor: false,
       },
@@ -36,9 +37,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Emilia - @lekoarts/gatsby-theme-emilia`,
-        short_name: `Emilia`,
-        description: `Minimalistic portfolio/photography site with masonry grid, page transitions and big images. Themeable with Theme UI.`,
+        name: `Florian Braatz - Personal CV`,
+        short_name: `Florian Braatz`,
+        description: `I personally use this site to introduce myself to new business contacts`,
         start_url: `/`,
         background_color: `#fff`,
         // This will impact how browsers show your PWA/website
