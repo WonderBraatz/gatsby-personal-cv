@@ -1,11 +1,11 @@
 /** @jsx jsx */
-import * as React from "react"
-import { jsx, useColorMode } from "theme-ui"
-import BGPattern from "../assets/bg-pattern"
+import * as React from "react";
+import { jsx, useColorMode } from "theme-ui";
+import BGPattern from "../assets/bg-pattern";
 
-const HeaderBackground = () => {
-  const [colorMode] = useColorMode()
-  const isDark = colorMode === `dark`
+const customHeaderBackground = () => {
+  const [colorMode] = useColorMode();
+  const isDark = colorMode === `dark`;
 
   return (
     <React.Fragment>
@@ -40,7 +40,7 @@ const HeaderBackground = () => {
         }}
       />
     </React.Fragment>
-  )
-}
+  );
+};
 
-export default HeaderBackground
+export default customHeaderBackground;
