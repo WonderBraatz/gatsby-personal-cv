@@ -1,11 +1,11 @@
 /** @jsx jsx */
-import * as React from "react";
-import { jsx, useColorMode } from "theme-ui";
-import BGPattern from "/Volumes/Samsung_T5/Privat/CV Website/gatsby-personal-cv/src/gatsby-theme-emilia/assets/bg-pattern2";
+import * as React from "react"
+import { jsx, useColorMode } from "theme-ui"
+import BGPattern from "../assets/bg-pattern"
 
 const HeaderBackground = () => {
-  const [colorMode] = useColorMode();
-  const isDark = colorMode === `dark`;
+  const [colorMode] = useColorMode()
+  const isDark = colorMode === `dark`
 
   return (
     <React.Fragment>
@@ -17,11 +17,11 @@ const HeaderBackground = () => {
           right: 0,
           bottom: 0,
           width: `100%`,
-          height: `200%`,
+          height: `100%`,
           color: `backgroundPattern`,
           svg: {
-            height: `200%`,
-            width: `100%`,
+            height: `250%`,
+            width: `250%`,
           },
         }}
       >
@@ -34,13 +34,13 @@ const HeaderBackground = () => {
           left: 0,
           right: 0,
           bottom: 0,
-          background: `linear-gradient(180deg, rgba(0, 0, 0, 0) 34.99%, rgba(0, 0, 0, 0) 35%, rgba(0, 0, 0, ${
-            isDark ? `0.35` : `0.15`
+          background: `linear-gradient(180deg, rgba(0, 0, 0, 0) 34.99%, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, ${
+            isDark ? `0.7` : `0.2`
           }) 100%)`,
         }}
       />
     </React.Fragment>
-  );
-};
+  )
+}
 
-export default HeaderBackground;
+export default HeaderBackground
