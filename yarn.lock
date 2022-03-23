@@ -1032,7 +1032,7 @@
     "core-js-pure" "^3.20.2"
     "regenerator-runtime" "^0.13.4"
 
-"@babel/runtime@^7.10.0", "@babel/runtime@^7.10.2", "@babel/runtime@^7.13.10", "@babel/runtime@^7.15.4", "@babel/runtime@^7.16.3", "@babel/runtime@^7.16.7", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
+"@babel/runtime@^7.10.0", "@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.13.10", "@babel/runtime@^7.15.4", "@babel/runtime@^7.16.3", "@babel/runtime@^7.16.7", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
   "integrity" "sha512-9E9FJowqAsytyOY6LG+1KuueckRL+aQW+mKvXRXnuFGyRAyepJPmEo9vgMfXUA6O9u3IeEdv9MAkppFcaQwogQ=="
   "resolved" "https://registry.npmjs.org/@babel/runtime/-/runtime-7.16.7.tgz"
   "version" "7.16.7"
@@ -6386,6 +6386,13 @@
     "lodash" "^4.17.21"
     "webpack-assets-manifest" "^5.1.0"
 
+"gatsby-plugin-gdpr-cookies@^2.0.8":
+  "integrity" "sha512-/JVwfWdvndiEWDV5Krw8fGKf76O5UOptYu5DaGIasub27pxemlsSbxiCdUGkEjrSpdmrmMixtTZrOjQLC8ti2g=="
+  "resolved" "https://registry.npmjs.org/gatsby-plugin-gdpr-cookies/-/gatsby-plugin-gdpr-cookies-2.0.8.tgz"
+  "version" "2.0.8"
+  dependencies:
+    "@babel/runtime" "^7.11.2"
+
 "gatsby-plugin-image@^2.6.0":
   "integrity" "sha512-ADp3Wsgb9eiwJknjDPuM8pBdkZpyOPwm/OWm7RFdKbrtfziteIFelSvwd374cqVo9TMqbs8yqXm1trgUOWJ5qw=="
   "resolved" "https://registry.npmjs.org/gatsby-plugin-image/-/gatsby-plugin-image-2.8.1.tgz"
@@ -6634,7 +6641,7 @@
     "@babel/core" "^7.15.5"
     "@babel/runtime" "^7.15.4"
 
-"gatsby@^2.0.0 || ^3.0.0", "gatsby@^2.0.0 || ^3.0.0 || ^4.0.0", "gatsby@^4.0.0", "gatsby@^4.0.0-next", "gatsby@^4.10.1":
+"gatsby@^2.0.0 || ^3.0.0", "gatsby@^2.0.0 || ^3.0.0 || ^4.0.0", "gatsby@^2.24.77 || ^3.0.0 || ^4.0.0", "gatsby@^4.0.0", "gatsby@^4.0.0-next", "gatsby@^4.10.1":
   "integrity" "sha512-UCapYjofrdxa3bIjMUN0Y+EUIEHNX/srOonv03UeZRKHshwAPe6g1eZfXK4iFNy8LxNsH947D5hLN63pNK77zg=="
   "resolved" "https://registry.npmjs.org/gatsby/-/gatsby-4.10.1.tgz"
   "version" "4.10.1"
@@ -10308,7 +10315,7 @@
     "strip-ansi" "6.0.0"
     "text-table" "0.2.0"
 
-"react-dom@^16.8.0  || ^17.0.0", "react-dom@^16.9.0 || ^17.0.0", "react-dom@^17.0.1", "react-dom@^17.0.2", "react-dom@15.x || 16.x || 17.x":
+"react-dom@^16.13.1 || ^17.0.1", "react-dom@^16.8.0  || ^17.0.0", "react-dom@^16.9.0 || ^17.0.0", "react-dom@^17.0.1", "react-dom@^17.0.2", "react-dom@15.x || 16.x || 17.x":
   "integrity" "sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-17.0.2.tgz"
   "version" "17.0.2"
@@ -10369,7 +10376,7 @@
     "@react-spring/web" "~9.4.0"
     "@react-spring/zdog" "~9.4.0"
 
-"react@^16 || ^17", "react@^16.13.1 || ^17.0.0", "react@^16.3.0 || ^17.0.0", "react@^16.8.0  || ^17.0.0", "react@^16.9.0 || ^17.0.0", "react@^17.0.1", "react@^17.0.2", "react@>=16.11", "react@>=16.3.0", "react@>=16.8.0", "react@15.x || 16.x || 17.x", "react@17.0.2":
+"react@^16 || ^17", "react@^16.13.1 || ^17.0.0", "react@^16.13.1 || ^17.0.1", "react@^16.3.0 || ^17.0.0", "react@^16.8.0  || ^17.0.0", "react@^16.9.0 || ^17.0.0", "react@^17.0.1", "react@^17.0.2", "react@>=16.11", "react@>=16.3.0", "react@>=16.8.0", "react@15.x || 16.x || 17.x", "react@17.0.2":
   "integrity" "sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA=="
   "resolved" "https://registry.npmjs.org/react/-/react-17.0.2.tgz"
   "version" "17.0.2"

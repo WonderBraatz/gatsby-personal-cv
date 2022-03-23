@@ -33,6 +33,21 @@ module.exports = {
         showThemeAuthor: false,
       },
     },
+    {
+      resolve: `gatsby-plugin-gdpr-cookies`,
+      options: {
+        googleAnalytics: {
+          trackingId: "",
+          // Setting this parameter is optional
+          anonymize: true,
+        },
+        facebookPixel: {
+          pixelId: "",
+        },
+        // Defines the environments where the tracking should be available  - default is ["production"]
+        environments: ["production", "development"],
+      },
+    },
     `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-manifest`,
