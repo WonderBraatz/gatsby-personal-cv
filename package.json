@@ -7,7 +7,7 @@
   "license": "0BSD",
   "starter-name": "gatsby-starter-portfolio-emilia",
   "scripts": {
-    "build": "gatsby build",
+    "build": "sudo gatsby build",
     "develop": "sudo gatsby develop -H $HOSTNAME -p 8000",
     "develop:cypress": "cross-env CYPRESS_SUPPORT=y yarn develop",
     "build:cypress": "cross-env CYPRESS_SUPPORT=y yarn build",
